@@ -28,11 +28,14 @@ IGNORE_ITEM = [
     ('rate_counter', 'config_file'),  # home dir issue
     ('group', 'format'),  # dynamic depending on click_mode
     ('github', 'format'),  # dynamic
+    ('github', 'allow_urgent'),  # legacy behavior
     ('kdeconnector', '_dev'),  # move to __init__ etc
+    ('pomodoro', 'allow_urgent'),  # legacy behavior
     ('arch_updates', '_format_pacman_and_aur'),  # need moving into __init__ etc
     ('arch_updates', '_format_pacman_only'),  # need moving into __init__ etc
     ('arch_updates', '_line_separator'),  # need moving into __init__ etc
     ('arch_updates', 'format'),  # dynamic
+    ('scratchpad_async', 'allow_urgent'),  # legacy behavior
 ]
 
 # Obsolete parameters will not have alphabetical order checked
